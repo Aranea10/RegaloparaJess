@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+#gifContainerImg {
+    width: 60%;
+    height: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+#siBtn {
+    padding: 10px 20px; 
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#noBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #c22400;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px; 
+}
+#noBtn span {
+    font-size: 18px;
+    color: black; 
+}
+
+#siBtn:hover{
+    background-color: #053a03;
+}
+#noBtn:hover {
+    background-color: #641e0d;
+}
+.bg-green {
+    background-color: white;
+}
+
+#messageContainer {
+    font-size: 30px;
+    color: rgb(0, 131, 192);
+    font-family: 'YourDesiredFont', sans-serif;
+    text-shadow: 1px 1px 2px #000;
+    animation: pulse 0.2s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.made-with-love {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 15PX;
+    text-align: center;
+    font-size: 10px;
+    z-index: 9999;
+    font-family: arial;
+    color: #269e84;
+    font-weight: 600;
+}
+.made-with-love i {
+    font-style: normal;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+.made-with-love a {
+    color: #076388;
+    text-decoration: none;
+
+    
+}
+.made-with-love a:hover {
+    text-decoration: underline;
+}
+.made-with-love .dribble img {
+    max-width: 100%;
+    width: 26px;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+}
+
+.made-with-love a {
+    font-weight: bold; /* AÃ±adiendo negrita solo a los enlaces */
+}
