@@ -6,6 +6,9 @@ body {
     margin: 0;
     background-color: black;
 }
+#question {
+    color: white;
+}
 
 .container {
     text-align: center;
@@ -45,7 +48,7 @@ button {
 }
 #noBtn span {
     font-size: 18px;
-    color: black; 
+    color: white; 
 }
 
 #siBtn:hover{
@@ -111,5 +114,5 @@ button {
 }
 
 .made-with-love a {
-    font-weight: bold; /* AÃ±adiendo negrita solo a los enlaces */
+    font-weight: bold;
 }
